@@ -1,8 +1,15 @@
 # yo-test-project
+[Yeoman Tutorial](http://yeoman.io/codelab.html)
 
+---
 Launch
 ```
 grunt serve
+```
+
+Run tests
+```
+grunt test
 ```
 ---
 Optimize files for production and places code in `dist/` directory.
