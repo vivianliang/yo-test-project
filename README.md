@@ -21,6 +21,11 @@ Preview production app
 grunt serve:dist
 ```
 
-"Angular generator also supports creating new views, directives and controllers for you. A new controller can be scaffolded by running `yo angular:route routeName`, which will create your controller files but also update the route in app.js for you. We also try scaffolding out unit tests where possible.
-
-To find out all the Yeoman commands for the Angular generator take a look at the [generator readme](https://github.com/yeoman/generator-angular#readme)."
+Angular generator also supports creating new views, directives and controllers for you.
+```
+yo angular:route routeName
+```
+* Creates controller files
+* Updates route in app.js
+* Scaffolds out unit tests where possible.
+More Yeoman commands for the Angular generator: [generator readme](https://github.com/yeoman/generator-angular#readme).
