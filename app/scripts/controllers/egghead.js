@@ -14,4 +14,10 @@ angular.module('yoTestProjectApp')
       'AngularJS',
       'Karma'
     ];
+  })
+  .directive('eggDirective', function (){
+    return {
+      restrict: 'E',
+      template: '<div>Here I am to save the day</div>'
+    };
   });
