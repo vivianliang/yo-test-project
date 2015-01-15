@@ -4,7 +4,7 @@ Launch
 ```
 grunt serve
 ```
-
+---
 Optimize files for production and places code in `dist/` directory.
 * lint code
 * run tests
@@ -15,12 +15,12 @@ Optimize files for production and places code in `dist/` directory.
 ```
 grunt
 ```
-
+---
 Preview production app
 ```
 grunt serve:dist
 ```
-
+---
 Angular generator also supports creating new views, directives and controllers for you.
 ```
 yo angular:route routeName
