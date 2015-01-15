@@ -2,17 +2,17 @@
 [Yeoman Tutorial](http://yeoman.io/codelab.html)
 
 ---
-Launch
+Launch:
 ```
 grunt serve
 ```
 
-Run tests
+Run tests:
 ```
 grunt test
 ```
 ---
-Optimize files for production and places code in `dist/` directory.
+Optimize files for production and places code in `dist/` directory:
 * lint code
 * run tests
 * concatenate/minify scripts/styles
@@ -23,12 +23,12 @@ Optimize files for production and places code in `dist/` directory.
 grunt
 ```
 ---
-Preview production app
+Preview production app:
 ```
 grunt serve:dist
 ```
 ---
-Angular generator also supports creating new views, directives and controllers for you.
+Angular generator also supports creating new views, directives and controllers for you:
 ```
 yo angular:route routeName
 ```
