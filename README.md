@@ -2,7 +2,7 @@
 [Yeoman Tutorial](http://yeoman.io/codelab.html)
 
 ---
-Launch (localhost:9000)
+Launch (`localhost:9000`)
 ```
 grunt serve
 ```
