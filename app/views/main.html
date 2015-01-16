@@ -4,7 +4,7 @@
 
   <!-- todos input -->
   <form role="form" ng-submit="addTodo()">
-    <div class="row">
+    <div class="row" style="padding:0 0 10px">
       <div class="input-group">
         <input type="text" ng-model="todo" placeholder="What needs to be done?" class="form-control">
         <span class="input-group-btn">
@@ -13,7 +13,6 @@
       </div>
     </div>
 
-    <p>
     <!-- Todos list -->
     <div ui-sortable ng-model="todos">
       <p class="input-group" ng-repeat="todo in todos" style="padding:5px 10px; cursor: move;">
