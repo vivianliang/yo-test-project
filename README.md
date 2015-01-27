@@ -36,3 +36,9 @@ yo angular:route routeName
 * Updates route in app.js
 * Scaffolds out unit tests where possible.
 More Yeoman commands for the Angular generator: [generator readme](https://github.com/yeoman/generator-angular#readme).
+---
+Deploy to github pages
+```
+gulp deploy
+```
+http://vivianliang.github.io/yo-test-project/#/
